@@ -1,5 +1,7 @@
 .net6logo {
 	list-style-image: url("http://antym.net/wp-content/uploads/assets/NET6logo_V2POS.png");
-	max-width: 100px;
+	max-width: inherit;
 	height: auto;
+	display: block;
+	margin: 0px auto;
 }
