@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="dialogs.css" type="text/css"?>
 
 <!DOCTYPE overlay SYSTEM "chrome://mproxy/locale/locale.dtd" >
 
@@ -29,9 +30,10 @@
 					toolbarname="&toolbar.name.label;"
 					class="chromeclass">
 			
-			<image class="net6logo" />
-			
 			<hbox align="center" flex="2">
+				
+				<toolbarbutton id="net6-button" label="" default="true" onclick="mproxy_setProxy(true)" image="http://antym.net/wp-content/uploads/assets/NET6logo_V2POS.png" tooltiptext="&common.apply.tip;" />
+				
 				<label value="&toolbar.proxy.label;" style="margin-right: 0;" />
 				
 				<menulist id="proxy-list" popup="proxy-list-popup">	

@@ -29,8 +29,14 @@
 					toolbarname="&toolbar.name.label;"
 					class="chromeclass">
 			
+			
 			<hbox align="center" flex="2">
-				<label value="&toolbar.proxy.label;" style="margin-right: 0;" />
+			
+				<toolbarbutton id="net6-button" label="net6degrees" default="true" onclick="" image="http://antym.net/wp-content/uploads/assets/NET6logo_25pxH.png" tooltiptext="&common.apply.tip;" />
+				
+				<toolbarseparator />
+				
+				<label value="&toolbar.proxy.label;" style="margin-right: 0px !important;" />
 				
 				<menulist id="proxy-list" popup="proxy-list-popup">	
 					<menupopup id="proxy-list-popup" position="after_start">

@@ -1,5 +1,5 @@
 ﻿<!-- COMMON -->
-<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.name "net6degrees Multiproxy Switch">
 <!ENTITY common.product.homepage "Website">
 
 <!ENTITY common.apply.label "Apply">
@@ -28,7 +28,7 @@
 <!ENTITY common.manage.key "M">
 
 <!-- TOOLBAR -->
-<!ENTITY toolbar.name.label "Multiproxy Switch Toolbar">
+<!ENTITY toolbar.name.label "net6degrees Proxy Switch Toolbar">
 <!ENTITY toolbar.proxy.label "Proxy: " >
 <!ENTITY toolbar.name.key "S">
 <!ENTITY toolbar.status "Status:">
