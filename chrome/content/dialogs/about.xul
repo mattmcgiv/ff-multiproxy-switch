@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
 <?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="dialogs.css" type="text/css"?>
 
 <!DOCTYPE dialog SYSTEM "chrome://mproxy/locale/locale.dtd">
 
@@ -26,6 +27,7 @@
   </script>
 
   <vbox style="width: 200px;">
+    <image class="net6logo" />
     <hbox>
       <label value="&common.product.name;" style="font-weight: bold; margin-right: 2px;" /> 
       <label value="v" id="mproxy-version" style="margin-left: 2px;" />
