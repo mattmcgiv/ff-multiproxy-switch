@@ -30,9 +30,9 @@
       <label value="&common.product.name;" style="font-weight: bold; margin-right: 2px;" /> 
       <label value="v" id="mproxy-version" style="margin-left: 2px;" />
     </hbox>
-    <label   value="Based on SwitchProxy by Jeremy Gillick" />
-    <label   value="https://github.com/jmccrohan/Multiproxy-Switch"
+    <label   value="net6degrees" />
+    <label   value="http://net6degrees.com"
         style="color: #0000FF; text-decoration: underline; cursor: pointer;" 
-        onclick="open_tab('https://github.com/jmccrohan/Multiproxy-Switch');" />
+        onclick="open_tab('http://net6degress.com');" />
   </vbox>
 </dialog>
