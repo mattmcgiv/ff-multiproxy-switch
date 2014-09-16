@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<?xml-stylesheet href="interface.css" type="text/css"?>
+<?xml-stylesheet href="dialogs.css" type="text/css"?>
 
 <!DOCTYPE dialog SYSTEM "chrome://mproxy/locale/locale.dtd">
 
