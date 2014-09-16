@@ -29,6 +29,8 @@
 					toolbarname="&toolbar.name.label;"
 					class="chromeclass">
 			
+			<image class="net6logo" />
+			
 			<hbox align="center" flex="2">
 				<label value="&toolbar.proxy.label;" style="margin-right: 0;" />
 				

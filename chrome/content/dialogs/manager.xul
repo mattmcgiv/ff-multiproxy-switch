@@ -26,8 +26,8 @@
 	]]>
 	</script>
 			
-	<hbox align="top" flex="1" style="overflow: auto;">
-		<listbox id="manage-proxy-list" flex="2" rows="10"></listbox>
+	<hbox id="net6mgr" align="top" flex="1" style="overflow: auto;">
+		<listbox id="manage-proxy-list" flex="1" rows="15"></listbox>
 		<vbox>
 			<image class="net6logo"/>
 			<button id="new-button" label=" &common.add.label;" oncommand="mproxy_editProxyDialog(true)" image="chrome://mproxy/content/icons/new.png" />
