@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+ <Description about="urn:mozilla:install-manifest">
+
+   <em:id>{BB080420-8088-F650-3D47-13799CCD6159}</em:id>
+   <em:name>Multiproxy Switch</em:name>
+   <em:version>1.40</em:version>
+   <em:description>MPS lets you switch local proxies in Firefox and Thunderbird, and do more.</em:description>
+   <em:creator>jmccrohan</em:creator>
+   <em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+   <em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
+   <em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
+   <em:optionsURL>chrome://mproxy/content/options/options.xul</em:optionsURL>
+   <em:updateURL>https://github.com/downloads/jmccrohan/Multiproxy-Switch/update.rdf</em:updateURL>
+
+   <!-- Firefox -->
+   <em:targetApplication>
+     <Description>
+       <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+       <em:minVersion>1.5</em:minVersion>
+       <em:maxVersion>12.*</em:maxVersion>
+     </Description>
+   </em:targetApplication>
+   <!-- Thunderbird -->
+   <em:targetApplication>
+     <Description>
+	<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+	<em:minVersion>1.0</em:minVersion>
+	<em:maxVersion>12.*</em:maxVersion>
+     </Description>
+   </em:targetApplication>
+ </Description>
+</RDF>
