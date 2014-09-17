@@ -32,7 +32,7 @@
 			
 			<hbox align="center" flex="2">
 			
-				<toolbarbutton id="net6-button" label="net6degrees" default="true" onclick="" image="http://antym.net/wp-content/uploads/assets/NET6logo_25pxH.png" tooltiptext="&common.apply.tip;" />
+				<toolbarbutton id="net6-button" label="net6degrees" default="true" onclick="mproxy_goTomproxyAbout()" image="http://antym.net/wp-content/uploads/assets/NET6logo_25pxH.png" tooltiptext="&common.apply.tip;" />
 				
 				<toolbarseparator />
 				
